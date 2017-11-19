@@ -1,6 +1,5 @@
 import kakasiCore from "./kakasi-core"
 import {  SeparateResult   } from "./result"
-const isarray = require('lodash.isarray');
 import Input from "./input"
 
 export async function separate(sentence :Input, separateChar :string = " "):Promise<SeparateResult>{
@@ -13,7 +12,7 @@ export async function separate(sentence :Input, separateChar :string = " "):Prom
             rlt = out
         })
     }else{
-        if(isarray(sentence)){
+        if(Array.isArray(sentence)){
             rlt = (sentence as Array<string>).join(" ");
         }else{
             rlt = sentence as string;   

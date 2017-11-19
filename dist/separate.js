@@ -37,7 +37,6 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var kakasi_core_1 = require("./kakasi-core");
 var result_1 = require("./result");
-var isarray = require('lodash.isarray');
 function separate(sentence, separateChar) {
     if (separateChar === void 0) { separateChar = " "; }
     return __awaiter(this, void 0, void 0, function () {
@@ -55,7 +54,7 @@ function separate(sentence, separateChar) {
                     _a.sent();
                     return [3 /*break*/, 3];
                 case 2:
-                    if (isarray(sentence)) {
+                    if (Array.isArray(sentence)) {
                         rlt = sentence.join(" ");
                     }
                     else {
