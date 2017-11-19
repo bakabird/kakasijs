@@ -46,4 +46,4 @@ function exec(command, input) {
         });
     });
 }
-exports.exec = exec;
+exports.default = exec;

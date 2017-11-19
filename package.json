@@ -7,7 +7,8 @@
     "scripts": {
         "test": "jasmine",
         "push": "git add --all && echo 'mes Please: ' && read mes && git commit -m '$mes' && git push origin master",
-        "patch": "tsc && git add --all && echo 'mes Please: ' && read mes && git commit -m '$mes' && git push origin master && snpm version patch"
+        "patch": "tsc && git add --all && echo 'mes Please: ' && read mes && git commit -m '$mes' && git push origin master && snpm version patch && npm run _upgit",
+        "_upgit": "git add --all && git commit -m 'patch version' && git push origin master"
     },
     "homepage": "https://github.com/bakabird/kakasijs",
     "repository": {

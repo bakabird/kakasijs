@@ -73,12 +73,12 @@ export let markKata = kanji.markKata;
 // mark-end-
 
 // separate-start-
-import * as _separate_ from "./separate"
+import _separate_ from "./separate"
 export let separate = _separate_;
 // separate-end-
 
 // exec-start-
-import * as _exec_ from "./exec"
+import _exec_ from "./exec"
 export let exec = _exec_;
 // exec-end-
 

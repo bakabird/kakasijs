@@ -16,7 +16,7 @@ export declare let kataToroma: (sentence: string | string[]) => Promise<Transfor
 export declare let kataTohira: (sentence: string | string[]) => Promise<TransformResult>;
 export declare let markKana: typeof kanji.markKana;
 export declare let markKata: typeof kanji.markKata;
-import * as _separate_ from "./separate";
+import _separate_ from "./separate";
 export declare let separate: typeof _separate_;
-import * as _exec_ from "./exec";
+import _exec_ from "./exec";
 export declare let exec: typeof _exec_;

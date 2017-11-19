@@ -144,10 +144,10 @@ exports.markKana = kanji.markKana;
 exports.markKata = kanji.markKata;
 // mark-end-
 // separate-start-
-var _separate_ = require("./separate");
-exports.separate = _separate_;
+var separate_1 = require("./separate");
+exports.separate = separate_1.default;
 // separate-end-
 // exec-start-
-var _exec_ = require("./exec");
-exports.exec = _exec_;
+var exec_1 = require("./exec");
+exports.exec = exec_1.default;
 // exec-end-

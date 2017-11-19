@@ -68,4 +68,4 @@ function separate(sentence, separateChar) {
         });
     });
 }
-exports.separate = separate;
+exports.default = separate;

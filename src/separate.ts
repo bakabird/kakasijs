@@ -2,7 +2,7 @@ import kakasiCore from "./kakasi-core"
 import {  SeparateResult   } from "./result"
 import Input from "./input"
 
-export async function separate(sentence :Input, separateChar :string = " "):Promise<SeparateResult>{
+export default async function separate(sentence :Input, separateChar :string = " "):Promise<SeparateResult>{
     let ori = sentence;
     let rlt:string;
     let from:string = "kanji";

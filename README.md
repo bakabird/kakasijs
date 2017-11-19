@@ -1,4 +1,4 @@
-# kakasijs v1.1.0
+# kakasijs
 
 
 [Twiiter](https://twitter.com/bakabird2) | [Mail](bakabird.yw@gmail.com) | [GitHub](https://github.com/bakabird/kakasijs)
