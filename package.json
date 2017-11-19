@@ -1,0 +1,59 @@
+{
+    "name": "kakasijs",
+    "version": "1.1.0",
+    "description": "A nodejs wrapper for kakasi.It could help to resolve japanese text.",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "test": "jasmine",
+        "push": "git add --all && echo 'mes Please: ' && read mes && git commit -m '$mes' && git push origin master",
+        "patch": "tsc && git add --all && echo 'mes Please: ' && read mes && git commit -m '$mes' && git push origin master && snpm version patch"
+    },
+    "homepage": "https://github.com/bakabird/kakasijs",
+    "repository": {
+        "url": "https://github.com/bakabird/kakasijs",
+        "type": "git"
+    },
+    "keywords": [
+        "japnese",
+        "japanese",
+        "jap",
+        "kanji",
+        "kata",
+        "katakana",
+        "hira",
+        "hirakana",
+        "kana",
+        "convert",
+        "transform",
+        "pronunciation",
+        "languge",
+        "rddcoding",
+        "bakabird",
+        "kakasi",
+        "KaKaSi",
+        "kakasijs",
+        "Word Segmentation",
+        "Segmentation"
+    ],
+    "bugs": "https://github.com/bakabird/kakasijs/issues",
+    "author": "rddcoding <bakabird.yw@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "chai": "^4.1.2",
+        "graceful-fs": "^3.0.0",
+        "gulp": "^3.9.1",
+        "gulp-jasmine": "^2.4.2",
+        "gulp-sourcemaps": "^2.6.1",
+        "gulp-typescript": "^3.1.7",
+        "jasmine": "^2.8.0",
+        "merge2": "^1.2.0",
+        "minimatch": "^3.0.2",
+        "typescript": "^2.6.1",
+        "watchify": "^3.9.0"
+    },
+    "dependencies": {
+        "@types/node": "^8.0.53",
+        "lodash.isarray": "^4.0.0"
+    }
+}
