@@ -34,9 +34,6 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
         if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
     }
 };
-function __export(m) {
-    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
-}
 Object.defineProperty(exports, "__esModule", { value: true });
 var kanji = require("./kanji");
 var kata_1 = require("./kata");
@@ -147,8 +144,10 @@ exports.markKana = kanji.markKana;
 exports.markKata = kanji.markKata;
 // mark-end-
 // separate-start-
-__export(require("./separate"));
+var _separate_ = require("./separate");
+exports.separate = _separate_;
 // separate-end-
 // exec-start-
-__export(require("./exec"));
+var _exec_ = require("./exec");
+exports.exec = _exec_;
 // exec-end-

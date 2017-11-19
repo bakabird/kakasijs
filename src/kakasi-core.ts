@@ -1,12 +1,10 @@
 const child_process = require("child_process")
 const fs = require("fs")
 const path = require("path")
-const isarray = require('lodash.isarray');
-
 import Input from './input';
 
 let beArr = (input :Input)=>{
-    if(!isarray(input)){
+    if(!Array.isArray(input)){
         input = [input as string];
     }
     return input;

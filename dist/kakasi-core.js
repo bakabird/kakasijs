@@ -39,9 +39,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var child_process = require("child_process");
 var fs = require("fs");
 var path = require("path");
-var isarray = require('lodash.isarray');
 var beArr = function (input) {
-    if (!isarray(input)) {
+    if (!Array.isArray(input)) {
         input = [input];
     }
     return input;
